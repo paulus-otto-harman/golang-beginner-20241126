@@ -1,0 +1,61 @@
+{
+	"info": {
+		"_postman_id": "cc1f7ec0-7c83-435c-b90d-6975cab9c2a4",
+		"name": "20241126tugas",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39501286",
+		"_collection_link": "https://lumoshive-8617.postman.co/workspace/Lumoshive-Workspace~3742b519-d511-4017-b9e7-1abd32fcec7f/collection/39501286-cc1f7ec0-7c83-435c-b90d-6975cab9c2a4?action=share&source=collection_link&creator=39501286"
+	},
+	"item": [
+		{
+			"name": "couriers",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/couriers",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"couriers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "shipping",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/shipping?lat=106.76337&lng=-6.164890&courier=2",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"shipping"
+					],
+					"query": [
+						{
+							"key": "lat",
+							"value": "106.76337"
+						},
+						{
+							"key": "lng",
+							"value": "-6.164890"
+						},
+						{
+							"key": "courier",
+							"value": "2"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
